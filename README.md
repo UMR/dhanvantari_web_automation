@@ -1,4 +1,4 @@
-# Dhanvantari-WEB-Cypress Setup
+# Dhanvantari-Web-Cypress Setup
 1. Install NodeJS [Check Node Version node -v]
 2. Install NPM [Check NPM Version npm -v]
 3. Create a blank project folder
