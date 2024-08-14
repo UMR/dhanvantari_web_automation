@@ -1,0 +1,12 @@
+stages:
+  - test
+
+test-in-test-agent(172.16.6.29):
+    stage: test
+
+    tags:
+    - test-runner
+
+    script:
+    - npm install
+    - npx cypress run --spec cypress/e2e/all_positive_test/all_positive_test.cy.js
